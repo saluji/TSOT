@@ -12,9 +12,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Block
   - 
   - 
   - 
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: Props
     uniqueID: 3092719405
+    locked: 0
+  - name: Player
+    uniqueID: 3276933287
     locked: 0
