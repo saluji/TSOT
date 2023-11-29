@@ -16,9 +16,9 @@ GameObject:
   - component: {fileID: -4482387193285957965}
   - component: {fileID: 8326050225778903015}
   - component: {fileID: 5830669502344077795}
-  - component: {fileID: 4261230713544330450}
+  - component: {fileID: 4065527453743494577}
   m_Layer: 0
-  m_Name: Barrel50
+  m_Name: Barrel75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 25493e9f70981c84bbda2ceb1877dfb0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cd15078265c1a194ca2b0790825f858e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -148,7 +148,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 50
+  m_Mass: 75
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -225,7 +225,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 309179cd27f05b245a71116df312cf99, type: 2}
---- !u!257 &4261230713544330450
+--- !u!257 &4065527453743494577
 TargetJoint2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,6 +242,6 @@ TargetJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_Target: {x: 0, y: 0}
   m_AutoConfigureTarget: 0
-  m_MaxForce: 5000
+  m_MaxForce: 7500
   m_DampingRatio: 0.5
   m_Frequency: 3
