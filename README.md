@@ -1,4 +1,4 @@
-# vr
+# Gamedesign
 # Projectname
 Ein einleitender Satz was sich in diesem Repo befindet.
 
