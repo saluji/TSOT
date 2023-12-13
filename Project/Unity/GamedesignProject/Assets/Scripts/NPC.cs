@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 public class NPC : MonoBehaviour
 {
+    public GameObject player;
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
     public string[] dialogue;
@@ -13,7 +14,7 @@ public class NPC : MonoBehaviour
     public bool playerIsClose;
     public bool activeDialogue = false;
 
-    //Start dialogueText string at 1,
+    //Start dialogueText string at 1
     void Start()
     {
         dialogueText.text = "";
