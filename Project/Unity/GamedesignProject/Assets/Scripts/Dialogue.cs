@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using System;
 
@@ -9,12 +10,14 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
+
     private int index;
+    private bool activeDialogue;
     // Aktivert Dialog
     void Start()
     {
-        textComponent.text = string.Empty;
-        StartDialogue();
+        //textComponent.text = string.Empty;
+        //StartDialogue();
     }
     void Update()
     {
@@ -33,6 +36,7 @@ public class Dialogue : MonoBehaviour
     }
     void StartDialogue()
     {
+        gameObject.SetActive(true);
         index = 0;
         StartCoroutine(TypeLine());
     }
@@ -57,5 +61,11 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+    }
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        if(collision.collider.tag==("Soldier") && Input.GetKeyDown(KeyCode.Z))
+        textComponent.text = string.Empty;
+        StartDialogue();
     }
 }
