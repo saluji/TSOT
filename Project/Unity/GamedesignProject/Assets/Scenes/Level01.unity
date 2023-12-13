@@ -128,41 +128,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7006558891897977704, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
   m_PrefabInstance: {fileID: 140266417}
   m_PrefabAsset: {fileID: 0}
---- !u!70 &28568232
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28568224}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.06471479}
-  m_Size: {x: 1.0290256, y: 1.5469971}
-  m_Direction: 0
 --- !u!1 &55705645
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,33 +316,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2985766123421360612, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
-      propertyPath: m_Size.x
-      value: 0.99630296
+    - target: {fileID: 6191078289437070697, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
+      propertyPath: m_BodyType
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2985766123421360612, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
-      propertyPath: m_Size.y
-      value: 1.3493313
+    - target: {fileID: 6191078289437070697, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2985766123421360612, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
-      propertyPath: m_Enabled
+    - target: {fileID: 6191078289437070697, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
+      propertyPath: m_Interpolate
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2985766123421360612, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.09698218
+    - target: {fileID: 6191078289437070697, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7006558891897977704, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006558891897977704, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7753562597702982697, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8068994984567965460, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -422,10 +379,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7006558891897977704, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 28568232}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
 --- !u!1 &218487543
 GameObject:
@@ -2951,6 +2905,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 28568224}
     - target: {fileID: 4583596981195375858, guid: 069740cf6348c0643bcd1fc0de0edc87, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583596981195375858, guid: 069740cf6348c0643bcd1fc0de0edc87, type: 3}
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 55705647}
@@ -2958,6 +2916,15 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 885258375}
+    - target: {fileID: 4583596981195375858, guid: 069740cf6348c0643bcd1fc0de0edc87, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Yo Raccoon! To comprehend my linguistics, don't just sleep (zzz) there
+        and let's play!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583596981195375858, guid: 069740cf6348c0643bcd1fc0de0edc87, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Oh yeah, also for running you gotta shift up your gear. Good luck!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
