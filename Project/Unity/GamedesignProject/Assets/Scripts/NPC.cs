@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 public class NPC : MonoBehaviour
 {
-    public GameObject player;
+    //public GameObject player;
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
     public string[] dialogue;
