@@ -18,7 +18,6 @@ public class NPC : MonoBehaviour
     public float wordSpeed;
     public bool playerIsClose;
 
-    //Disable player movement while in dialogue
     void Awake()
     {
         playerMovement = player.GetComponent<ScriptMachine>();
@@ -29,22 +28,26 @@ public class NPC : MonoBehaviour
     {
         dialogueText.text = "";
     }
-    //Checks if Player is in range and pushes button to interact, player stays idle when activating dialogue while walking
+    //Dialogue check
     void Update()
     {
+        //Checks if player is in range and hits interact button
         if (Input.GetKeyDown(KeyCode.Z) && playerIsClose)
         {
             if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
+                //Disable player movement while in dialogue, player stays idle when activating dialogue while walking
                 playerMovement.enabled = false;
                 animator.SetFloat("speed", 0);
                 StartCoroutine(Typing());
             }
+            //Advandes next line of text
             else if (dialogueText.text == dialogue[index])
             {
                 NextLine();
             }
+        //Displays all text at once without strings overflowing
         }
         if (Input.GetKeyDown(KeyCode.X) && dialoguePanel.activeInHierarchy)
         {
@@ -52,7 +55,7 @@ public class NPC : MonoBehaviour
             dialogueText.text = dialogue[index];
         }
     }
-    //Removes text, reactivates movement
+    //Removes text, reactivate player movement
     public void RemoveText()
     {
         dialogueText.text = "";
@@ -69,7 +72,7 @@ public class NPC : MonoBehaviour
             yield return new WaitForSeconds(wordSpeed);
         }
     }
-    //Advances to next line of texts
+    //Advances to next line of text
     public void NextLine()
     {
         if (index < dialogue.Length - 1)

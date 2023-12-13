@@ -6,7 +6,16 @@ https://trello.com/b/09oiFsnn/gamedesign
 
 Link zur itch.io Seite
 
+Links der verwendeten Assets
+https://seliel-the-shaper.itch.io/gentle-forest
+https://ozanoyunbozan.itch.io/pixel-art-house-and-interior
+https://pixelfight.itch.io/birdcat
+
+
 Benutzte Tutorials
+
+C# Animation Coding
+https://www.youtube.com/watch?v=hkaysu1Z-N8
 
 Blend Tree Animator
 https://www.youtube.com/watch?v=Up9zrK9Q1Ck
