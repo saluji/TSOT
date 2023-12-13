@@ -3,69 +3,100 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System;
+using Unity.VisualScripting;
 
 public class Dialogue : MonoBehaviour
 {
-    public TextMeshProUGUI textComponent;
-    public string[] lines;
-    public float textSpeed;
+    public GameObject player;
+    public GameObject dialoguePanel;
+    public TextMeshProUGUI dialogueText;
+    public ScriptMachine playerMovement;
+    //public Animator animator;
+    public string[] dialogue;
+    private int index = 0;
+    public float wordSpeed;
+    public bool playerIsClose;
 
-    private int index;
-    private bool activeDialogue;
-    // Aktivert Dialog
+    //Disable player movement while in dialogue
+    void Awake()
+    {
+        playerMovement = player.GetComponent<ScriptMachine>();
+        //animator = player.GetComponent<Animator>();
+    }
+    //Start dialogueText string at 1
     void Start()
     {
-        //textComponent.text = string.Empty;
-        //StartDialogue();
+        dialogueText.text = "";
     }
+    //Checks if Player is in range and pushes button to interact
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) && playerIsClose)
         {
-            if (textComponent.text == lines[index])
+            if (!dialoguePanel.activeInHierarchy)
+            {
+                dialoguePanel.SetActive(true);
+                playerMovement.enabled = false;
+                //animator.enabled = false;
+                StartCoroutine(Typing());
+            }
+            else if (dialogueText.text == dialogue[index])
             {
                 NextLine();
             }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
-            }
         }
-    }
-    void StartDialogue()
-    {
-        gameObject.SetActive(true);
-        index = 0;
-        StartCoroutine(TypeLine());
-    }
-
-    IEnumerator TypeLine()
-    {
-        foreach (char c in lines[index].ToCharArray())
+        /*if (Input.GetKeyDown(KeyCode.X) && dialoguePanel.activeInHierarchy)
         {
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
+            RemoveText();
+        }*/
+    }
+    //Removes text, reactivates movement
+    public void RemoveText()
+    {
+        dialogueText.text = "";
+        index = 0;
+        dialoguePanel.SetActive(false);
+        playerMovement.enabled = true;
+        //animator.enabled = true;
+    }
+    //Creates written text
+    IEnumerator Typing()
+    {
+        foreach (char letter in dialogue[index].ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(wordSpeed);
         }
     }
-    void NextLine()
+    //Advances to next line of texts
+    public void NextLine()
     {
-        if (index < lines.Length - 1)
+        if (index < dialogue.Length - 1)
         {
             index++;
-            textComponent.text = string.Empty;
-            StartCoroutine(TypeLine());
+            dialogueText.text = "";
+            StartCoroutine(Typing());
         }
         else
         {
-            gameObject.SetActive(false);
+            RemoveText();
         }
     }
-    void OnCollisionStay2D(Collision2D collision)
+    //Activates trigger if Player is in NPC range
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.collider.tag==("Soldier") && Input.GetKeyDown(KeyCode.Z))
-        textComponent.text = string.Empty;
-        StartDialogue();
+        if (other.CompareTag("Player"))
+        {
+            playerIsClose = true;
+        }
+    }
+    //Deactivates trigger if Player is not in NPC range anymore
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerIsClose = false;
+            RemoveText();
+        }
     }
 }
