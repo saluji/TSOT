@@ -11,8 +11,8 @@ public class NPC : MonoBehaviour
     public GameObject player;
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
-    public ScriptMachine playerMovement;
-    //public Animator animator;
+    private ScriptMachine playerMovement;
+    private Animator animator;
     public string[] dialogue;
     private int index = 0;
     public float wordSpeed;
@@ -22,14 +22,14 @@ public class NPC : MonoBehaviour
     void Awake()
     {
         playerMovement = player.GetComponent<ScriptMachine>();
-        //animator = player.GetComponent<Animator>();
+        animator = player.GetComponent<Animator>();
     }
     //Start dialogueText string at 1
     void Start()
     {
         dialogueText.text = "";
     }
-    //Checks if Player is in range and pushes button to interact
+    //Checks if Player is in range and pushes button to interact, player stays idle when activating dialogue while walking
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Z) && playerIsClose)
@@ -38,7 +38,7 @@ public class NPC : MonoBehaviour
             {
                 dialoguePanel.SetActive(true);
                 playerMovement.enabled = false;
-                //animator.enabled = false;
+                animator.SetFloat("speed", 0);
                 StartCoroutine(Typing());
             }
             else if (dialogueText.text == dialogue[index])
@@ -50,7 +50,6 @@ public class NPC : MonoBehaviour
         {
             StopAllCoroutines();
             dialogueText.text = dialogue[index];
-            //RemoveText();
         }
     }
     //Removes text, reactivates movement
@@ -60,7 +59,6 @@ public class NPC : MonoBehaviour
         index = 0;
         dialoguePanel.SetActive(false);
         playerMovement.enabled = true;
-        //animator.enabled = true;
     }
     //Creates written text
     IEnumerator Typing()

@@ -2918,12 +2918,12 @@ PrefabInstance:
       objectReference: {fileID: 885258375}
     - target: {fileID: 4583596981195375858, guid: 069740cf6348c0643bcd1fc0de0edc87, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: Yo Raccoon! To comprehend my linguistics, don't just sleep (zzz) there
-        and let's play!
+      value: Yo Raccoon! With X you can display the whole text and with Z you can
+        advance to the next line.
       objectReference: {fileID: 0}
     - target: {fileID: 4583596981195375858, guid: 069740cf6348c0643bcd1fc0de0edc87, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: Oh yeah, also for running you gotta shift up your gear. Good luck!
+      value: Oh yeah, for sprinting you gotta shift your gear!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
