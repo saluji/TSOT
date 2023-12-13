@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8465560174586822906}
   - component: {fileID: 4528528930063145810}
   - component: {fileID: 4583596981195375858}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NPC
   m_TagString: NPC
   m_Icon: {fileID: 0}
@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2d710919a19ba498b3a8d96ba615a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
   dialogue:
@@ -187,4 +188,3 @@ MonoBehaviour:
   - Oh yeah, also for running you gotta shift up your gear.
   wordSpeed: 0.05
   playerIsClose: 0
-  activeDialogue: 0
