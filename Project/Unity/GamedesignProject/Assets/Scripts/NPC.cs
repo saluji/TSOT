@@ -3,50 +3,60 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Unity.VisualScripting;
-
 public class NPC : MonoBehaviour
 {
     public GameObject dialoguePanel;
-    public GetScriptGraph scriptGraph;
     public TextMeshProUGUI dialogueText;
     public string[] dialogue;
-    private int index;
+    private int index = 0;
+    public float wordSpeed;
+    public bool playerIsClose;
+    public bool activeDialogue = false;
 
-    public float textSpeed;
-    public bool activeDialogue;
-    // Checks if Player is in range with NPC and pushes button to interact
+    //Start dialogueText string at 1,
+    void Start()
+    {
+        dialogueText.text = "";
+    }
+    //Checks if Player is in range and pushes button to interact
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Z) && activeDialogue)
+        if (Input.GetKeyDown(KeyCode.Z) && playerIsClose)
         {
-            if (dialoguePanel.activeInHierarchy)
-            {
-                ZeroText();
-            }
-            else
+            if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
+                activeDialogue = true;
                 StartCoroutine(Typing());
             }
+            else if (dialogueText.text == dialogue[index])
+            {
+                NextLine();
+            }
         }
+        /*if (Input.GetKeyDown(KeyCode.X) && dialoguePanel.activeInHierarchy)
+        {
+            RemoveText();
+        }*/
     }
-    //Resets text
-    public void ZeroText()
+    //Removes text
+    public void RemoveText()
     {
         dialogueText.text = "";
         index = 0;
         dialoguePanel.SetActive(false);
+        activeDialogue = false;
     }
     //Creates written text
     IEnumerator Typing()
     {
-        foreach (char c in dialogue[index].ToCharArray())
+        foreach (char letter in dialogue[index].ToCharArray())
         {
-            dialogueText.text += c;
-            yield return new WaitForSeconds(textSpeed);
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(wordSpeed);
         }
     }
+    //Advances to next line of texts
     public void NextLine()
     {
         if (index < dialogue.Length - 1)
@@ -57,7 +67,7 @@ public class NPC : MonoBehaviour
         }
         else
         {
-            ZeroText();
+            RemoveText();
         }
     }
     //Activates trigger if Player is in NPC range
@@ -65,7 +75,7 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            activeDialogue = true;
+            playerIsClose = true;
         }
     }
     //Deactivates trigger if Player is not in NPC range anymore
@@ -73,8 +83,8 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            activeDialogue = false;
-            ZeroText();
+            playerIsClose = false;
+            RemoveText();
         }
     }
 }

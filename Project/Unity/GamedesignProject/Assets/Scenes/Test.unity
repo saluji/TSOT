@@ -415,8 +415,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2985766123421360612, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -674,9 +673,10 @@ MonoBehaviour:
   dialoguePanel: {fileID: 885258375}
   dialogueText: {fileID: 55705647}
   dialogue:
-  - What are you doing?
-  - Back to work!
-  textSpeed: 0.05
+  - HEY! What are you doing?
+  - Get back to work!
+  wordSpeed: 0.05
+  playerIsClose: 0
   activeDialogue: 0
 --- !u!1 &247696700
 GameObject:
@@ -2469,7 +2469,6 @@ GameObject:
   - component: {fileID: 885258376}
   - component: {fileID: 885258379}
   - component: {fileID: 885258378}
-  - component: {fileID: 885258377}
   m_Layer: 5
   m_Name: DialoguePanel
   m_TagString: Untagged
@@ -2497,23 +2496,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -375}
   m_SizeDelta: {x: -200, y: -850}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &885258377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885258375}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 375c506ee8311d74697387e993bb6b32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 55705647}
-  lines:
-  - What are you doing?
-  - Back to work!
-  textSpeed: 0.05
 --- !u!114 &885258378
 MonoBehaviour:
   m_ObjectHideFlags: 0
