@@ -20,6 +20,7 @@ public class NPC : MonoBehaviour
 
     void Awake()
     {
+
         playerMovement = player.GetComponent<ScriptMachine>();
         animator = player.GetComponent<Animator>();
     }
@@ -32,7 +33,7 @@ public class NPC : MonoBehaviour
     void Update()
     {
         //Checks if player is in range and hits interact button
-        if (Input.GetKeyDown(KeyCode.Z) && playerIsClose)
+        if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Z)) && playerIsClose)
         {
             if (!dialoguePanel.activeInHierarchy)
             {
