@@ -14,14 +14,10 @@ https://pixelfight.itch.io/birdcat
 
 Benutzte Tutorials
 
-C# Animation Coding
-https://www.youtube.com/watch?v=hkaysu1Z-N8
-
-Blend Tree Animator
-https://www.youtube.com/watch?v=Up9zrK9Q1Ck
+Blend Tree Animator mit Bolt
 https://www.youtube.com/watch?v=p8EfeJ4HOww
 
-Dialog Text
+Dialog Text C#
 https://www.youtube.com/watch?v=1nFNOyCalzo
 
 Textbox Sound

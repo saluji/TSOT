@@ -6,7 +6,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 
-public class NPC : MonoBehaviour
+public class Textbox : MonoBehaviour
 {
     public GameObject player;
     public GameObject dialoguePanel;
@@ -38,8 +38,9 @@ public class NPC : MonoBehaviour
             if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
-                //Disable player movement while in dialogue, player stays idle when activating dialogue while walking
+                //Disable player movement while in dialogue
                 playerMovement.enabled = false;
+                //Player stays idle when activating dialogue while walking
                 animator.SetFloat("speed", 0);
                 StartCoroutine(Typing());
             }
@@ -56,7 +57,7 @@ public class NPC : MonoBehaviour
             dialogueText.text = dialogue[index];
         }
     }
-    //Removes text, reactivate player movement
+    //Removes text, reactivates player movement
     public void RemoveText()
     {
         dialogueText.text = "";
