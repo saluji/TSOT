@@ -17,6 +17,7 @@ public class Textbox : MonoBehaviour
     private int index = 0;
     public float wordSpeed;
     public bool playerIsClose;
+    int x;
 
     void Awake()
     {
