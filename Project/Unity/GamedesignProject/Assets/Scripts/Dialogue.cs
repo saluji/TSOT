@@ -3,26 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Unity.VisualScripting;
+//using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 
 public class Dialogue : MonoBehaviour
 {
     public GameObject player;
-    public ScriptMachine scriptMachine;
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
+    public TextMeshProUGUI characterName;
+    //private ScriptMachine playerSM;
+    //private RaycastHit2D raycast;
     public string[] dialogue;
+    //public string nameText;
     private int index = 0;
     public float wordSpeed;
 
     private void Awake()
     {
-
+        //playerSM = player.GetComponent<ScriptMachine>();
+        //raycast = player.GetComponent<RaycastHit2D>();
     }
     //Start dialogueText string at 1
     void Start()
     {
+        
         dialogueText.text = "";
     }
     //Dialogue check
