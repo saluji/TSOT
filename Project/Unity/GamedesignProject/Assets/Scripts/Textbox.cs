@@ -21,7 +21,6 @@ public class Textbox : MonoBehaviour
 
     void Awake()
     {
-
         playerMovement = player.GetComponent<ScriptMachine>();
         animator = player.GetComponent<Animator>();
     }
