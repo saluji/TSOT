@@ -6,6 +6,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine.EventSystems;
+using System;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -19,8 +20,11 @@ public class DialogueManager : MonoBehaviour
     //private ScriptMachine playerSM;
     //private RaycastHit2D hit;
     //public string nameText;
+
     void Awake()
     {
+        //int[] array = { 1, 2, 3 };
+        //Debug.Log(array.Length);
         //playerSM = player.GetComponent<ScriptMachine>();
         //raycast = player.GetComponent<RaycastHit2D>();
     }
@@ -33,7 +37,7 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         //Checks if player is in range and hits interact button
-        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             if (!dialoguePanel.activeInHierarchy)
             {
