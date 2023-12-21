@@ -19,6 +19,7 @@ https://www.youtube.com/watch?v=p8EfeJ4HOww
 
 Dialog Basics in C#
 https://www.youtube.com/watch?v=1nFNOyCalzo
+
 Dialog Basic in Visual Script
 https://www.youtube.com/watch?v=eQ_R7Qzy1gI
 

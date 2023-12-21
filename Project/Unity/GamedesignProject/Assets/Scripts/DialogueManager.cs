@@ -6,7 +6,6 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine.EventSystems;
-using Unity.VisualScripting;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -20,7 +19,6 @@ public class DialogueManager : MonoBehaviour
     //private ScriptMachine playerSM;
     //private RaycastHit2D hit;
     //public string nameText;
-
     void Awake()
     {
         //playerSM = player.GetComponent<ScriptMachine>();
