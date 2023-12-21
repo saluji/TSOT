@@ -14,13 +14,12 @@ https://pixelfight.itch.io/birdcat
 
 Benutzte Tutorials
 
-Blend Tree Animator mit Bolt
+Blend Tree Animation mit Bolt
 https://www.youtube.com/watch?v=p8EfeJ4HOww
 
-Dialog Text C#
+Dialog Basics in C#
 https://www.youtube.com/watch?v=1nFNOyCalzo
-
-Dialoge in Bolt
+Dialog Basic in Visual Script
 https://www.youtube.com/watch?v=eQ_R7Qzy1gI
 
 Tilemaps
