@@ -17,8 +17,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private string[] dialogue;
     [SerializeField] private float wordSpeed;
     [SerializeField] private int index = 0;
-    private ScriptMachine playerSM;
-    private RaycastHit2D hit;
+    //private ScriptMachine playerSM;
+    //private RaycastHit2D hit;
     //public string nameText;
 
     void Awake()
@@ -29,7 +29,6 @@ public class DialogueManager : MonoBehaviour
     //Start dialogueText string at 1
     void Start()
     {
-        
         dialogueText.text = "";
     }
     //Dialogue check
