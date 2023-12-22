@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.6226415, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.2155097, b: 0.62352943, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -101,11 +101,12 @@ MonoBehaviour:
   player: {fileID: 0}
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
+  characterName: {fileID: 0}
   dialogue:
   - Hey! Stop staring and keep moving!
   - Or do you want to end like the rest of them?
   wordSpeed: 0.05
-  playerIsClose: 0
+  index: 0
 --- !u!61 &4393521416935826068
 BoxCollider2D:
   m_ObjectHideFlags: 0
