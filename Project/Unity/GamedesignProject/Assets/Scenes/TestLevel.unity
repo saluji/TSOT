@@ -4192,7 +4192,7 @@ PrefabInstance:
       objectReference: {fileID: 885258375}
     - target: {fileID: 6418832028860385603, guid: e53c851b43dbe7c4cb4351c9c46b172a, type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: Soldier
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
