@@ -8,6 +8,8 @@ TagManager:
   - Soldier
   - NPC
   - Prop
+  - House
+  - Interior
   layers:
   - Default
   - TransparentFX
