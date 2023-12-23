@@ -5,13 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Interactable
-  - Soldier
   - NPC
   - Prop
   - House
   - Interior
   - Mine
   - MineEntrance
+  - Enemy
   layers:
   - Default
   - TransparentFX
