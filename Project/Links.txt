@@ -23,5 +23,8 @@ https://www.youtube.com/watch?v=1nFNOyCalzo
 Dialog Basic in Visual Script
 https://www.youtube.com/watch?v=eQ_R7Qzy1gI
 
+AI Behaviour mit State Machines
+https://www.youtube.com/watch?v=Kwpi9j_88xA
+
 Tilemaps
 https://www.youtube.com/watch?v=ryISV_nH8qw
