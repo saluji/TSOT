@@ -10,8 +10,8 @@ TagManager:
   - Prop
   - House
   - Interior
-  - Cave
-  - CaveEntrance
+  - Mine
+  - MineEntrance
   layers:
   - Default
   - TransparentFX

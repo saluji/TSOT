@@ -138,7 +138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 30660985}
   m_Layer: 0
-  m_Name: CavePosition
+  m_Name: MinePosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -420,8 +420,8 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"locationTag","value":{"$content":"","$type":"System.String"},"typeHandle":{"Identification":"System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"housePosition","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"interiorPosition","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"cavePosition","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"caveEntrancePosition","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"minePosition","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"mineEntrancePosition","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -1468870193568309786, guid: 6e06256b8a4fe0644967fd47c3409da9, type: 3}
@@ -694,8 +694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-349.9126,"y":-523.9958},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"getText","$type":"System.String"}},"position":{"x":-787.0,"y":-743.0},"guid":"eb696546-b575-474d-99d7-9bf8b67b1f42","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"10"},{"argumentCount":1,"defaultValues":{"name":{"$content":"setText","$type":"System.String"},"target":null},"position":{"x":-274.0,"y":-755.0},"guid":"60d69470-42c3-4511-9b7d-f08ffde2a68b","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"dialogueManager","$type":"System.String"}},"position":{"x":-535.0,"y":-656.0},"guid":"1a55a219-a702-4524-bcfd-d4cf81f911d1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"type":"System.String","value":{"$content":"This
-      is the central camp. Please refrain from talking with the prisoners.","$type":"System.String"},"defaultValues":{},"position":{"x":-556.0,"y":-527.0},"guid":"0629b490-7ae4-4007-ac64-e3fcc8148fc8","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"ef5e5ddd-ca08-4dc9-9d19-06ca9d7e5d79","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"223f6085-bd81-441c-95b6-b211b2b9e429","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"argument_0","guid":"59146531-e87e-4d1b-ad19-ef713e10d528","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-349.9126,"y":-523.9958},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"getText","$type":"System.String"}},"position":{"x":-787.0,"y":-743.0},"guid":"eb696546-b575-474d-99d7-9bf8b67b1f42","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"10"},{"argumentCount":1,"defaultValues":{"name":{"$content":"setText","$type":"System.String"},"target":null},"position":{"x":-274.0,"y":-755.0},"guid":"60d69470-42c3-4511-9b7d-f08ffde2a68b","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"dialogueManager","$type":"System.String"}},"position":{"x":-535.0,"y":-656.0},"guid":"1a55a219-a702-4524-bcfd-d4cf81f911d1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"type":"System.String","value":{"$content":"Multiple
+      screen transitions","$type":"System.String"},"defaultValues":{},"position":{"x":-556.0,"y":-527.0},"guid":"0629b490-7ae4-4007-ac64-e3fcc8148fc8","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"ef5e5ddd-ca08-4dc9-9d19-06ca9d7e5d79","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"223f6085-bd81-441c-95b6-b211b2b9e429","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"argument_0","guid":"59146531-e87e-4d1b-ad19-ef713e10d528","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &241603420
 MonoBehaviour:
@@ -863,6 +863,7 @@ GameObject:
   - component: {fileID: 247696703}
   - component: {fileID: 247696702}
   - component: {fileID: 247696701}
+  - component: {fileID: 247696705}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -945,6 +946,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1481454989}
   - {fileID: 885258376}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -953,6 +955,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &247696705
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247696700}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a537bca640a6c4f4c9dfa7cdac8b1811, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &445428460
 GameObject:
   m_ObjectHideFlags: 0
@@ -2821,8 +2844,8 @@ GameObject:
   - component: {fileID: 1223904474}
   - component: {fileID: 1223904475}
   m_Layer: 0
-  m_Name: Cave
-  m_TagString: Cave
+  m_Name: Mine
+  m_TagString: Mine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2993,8 +3016,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-349.9126,"y":-523.9958},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"getText","$type":"System.String"}},"position":{"x":-787.0,"y":-743.0},"guid":"eb696546-b575-474d-99d7-9bf8b67b1f42","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"10"},{"argumentCount":1,"defaultValues":{"name":{"$content":"setText","$type":"System.String"},"target":null},"position":{"x":-274.0,"y":-755.0},"guid":"60d69470-42c3-4511-9b7d-f08ffde2a68b","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"dialogueManager","$type":"System.String"}},"position":{"x":-535.0,"y":-656.0},"guid":"1a55a219-a702-4524-bcfd-d4cf81f911d1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"type":"System.String","value":{"$content":"This
-      is the result of 100 years of war... What a place to behold.","$type":"System.String"},"defaultValues":{},"position":{"x":-556.0,"y":-527.0},"guid":"0629b490-7ae4-4007-ac64-e3fcc8148fc8","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"ef5e5ddd-ca08-4dc9-9d19-06ca9d7e5d79","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"223f6085-bd81-441c-95b6-b211b2b9e429","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"argument_0","guid":"59146531-e87e-4d1b-ad19-ef713e10d528","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-349.9126,"y":-523.9958},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"getText","$type":"System.String"}},"position":{"x":-787.0,"y":-743.0},"guid":"eb696546-b575-474d-99d7-9bf8b67b1f42","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"10"},{"argumentCount":1,"defaultValues":{"name":{"$content":"setText","$type":"System.String"},"target":null},"position":{"x":-274.0,"y":-755.0},"guid":"60d69470-42c3-4511-9b7d-f08ffde2a68b","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"dialogueManager","$type":"System.String"}},"position":{"x":-535.0,"y":-656.0},"guid":"1a55a219-a702-4524-bcfd-d4cf81f911d1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"type":"System.String","value":{"$content":"Multiple
+      screen transitions ging laenger als ich dachte... aber dann gings doch. :)","$type":"System.String"},"defaultValues":{},"position":{"x":-556.0,"y":-527.0},"guid":"0629b490-7ae4-4007-ac64-e3fcc8148fc8","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"ef5e5ddd-ca08-4dc9-9d19-06ca9d7e5d79","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"223f6085-bd81-441c-95b6-b211b2b9e429","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"argument_0","guid":"59146531-e87e-4d1b-ad19-ef713e10d528","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &1226804323
 MonoBehaviour:
@@ -3089,8 +3112,8 @@ GameObject:
   - component: {fileID: 1359342642}
   - component: {fileID: 1359342643}
   m_Layer: 0
-  m_Name: CaveEntrance
-  m_TagString: CaveEntrance
+  m_Name: MineEntrance
+  m_TagString: MineEntrance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3165,7 +3188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422340705}
   m_Layer: 0
-  m_Name: CaveEntracePosition
+  m_Name: MineEntracePosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3253,6 +3276,81 @@ Transform:
   - {fileID: 4217524237816863729}
   m_Father: {fileID: 1796484146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1481454988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481454989}
+  - component: {fileID: 1481454991}
+  - component: {fileID: 1481454990}
+  m_Layer: 5
+  m_Name: FadeScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1481454989
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481454988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 247696704}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1481454990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481454988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1481454991
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481454988}
+  m_CullTransparentMesh: 1
 --- !u!1 &1535022072
 GameObject:
   m_ObjectHideFlags: 0
@@ -3854,7 +3952,7 @@ PrefabInstance:
       objectReference: {fileID: 885258375}
     - target: {fileID: 6418832028860385603, guid: e53c851b43dbe7c4cb4351c9c46b172a, type: 3}
       propertyPath: m_Name
-      value: Soldier
+      value: Fox
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3888,8 +3986,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-381.2956,"y":-395.058},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"getText","$type":"System.String"}},"position":{"x":-735.0,"y":-545.0},"guid":"f9006dca-d8cc-481b-87c2-f0f8461c9489","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"10"},{"argumentCount":1,"defaultValues":{"name":{"$content":"setText","$type":"System.String"},"target":null},"position":{"x":-223.0,"y":-558.0},"guid":"83bd90b2-4226-4588-aef0-d0bd969c8722","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"dialogueManager","$type":"System.String"}},"position":{"x":-484.0,"y":-459.0},"guid":"5a768680-8eea-45e5-a547-1fed41e9982e","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"type":"System.String","value":{"$content":"Stop
-      staring and keep moving! Or do you want to get hurt? Foolish prisoner...","$type":"System.String"},"defaultValues":{},"position":{"x":-498.0,"y":-339.0},"guid":"d74a11ef-6eb5-40cf-8611-16f280cfd1d6","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"9f95b1fd-4580-4f43-836a-21cb9d100d07","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"40acc177-32e7-41be-98b1-189f2bbc85b9","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"argument_0","guid":"60fee6a5-18c9-4735-a790-d5a0f9b1c88f","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-381.2956,"y":-395.058},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"getText","$type":"System.String"}},"position":{"x":-735.0,"y":-545.0},"guid":"f9006dca-d8cc-481b-87c2-f0f8461c9489","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"10"},{"argumentCount":1,"defaultValues":{"name":{"$content":"setText","$type":"System.String"},"target":null},"position":{"x":-223.0,"y":-558.0},"guid":"83bd90b2-4226-4588-aef0-d0bd969c8722","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"dialogueManager","$type":"System.String"}},"position":{"x":-484.0,"y":-459.0},"guid":"5a768680-8eea-45e5-a547-1fed41e9982e","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"type":"System.String","value":{"$content":"Good
+      job Raccoon!","$type":"System.String"},"defaultValues":{},"position":{"x":-498.0,"y":-339.0},"guid":"d74a11ef-6eb5-40cf-8611-16f280cfd1d6","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"9f95b1fd-4580-4f43-836a-21cb9d100d07","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"40acc177-32e7-41be-98b1-189f2bbc85b9","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"argument_0","guid":"60fee6a5-18c9-4735-a790-d5a0f9b1c88f","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &4217524237816863728
 MonoBehaviour:
