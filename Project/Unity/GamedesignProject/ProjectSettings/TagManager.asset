@@ -10,6 +10,8 @@ TagManager:
   - Prop
   - House
   - Interior
+  - Cave
+  - CaveEntrance
   layers:
   - Default
   - TransparentFX
