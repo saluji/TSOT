@@ -12,6 +12,8 @@ TagManager:
   - Mine
   - MineEntrance
   - Enemy
+  - Location
+  - Position
   layers:
   - Default
   - TransparentFX
@@ -22,8 +24,8 @@ TagManager:
   - Interactable
   - Player
   - Enemy
-  - 
-  - 
+  - Location
+  - Position
   - 
   - 
   - 
