@@ -14,6 +14,7 @@ https://pixelfight.itch.io/birdcat
 Benutzte Tutorials
 
 Blend Tree Animation mit Visual Script
+https://www.youtube.com/watch?v=Up9zrK9Q1Ck
 https://www.youtube.com/watch?v=p8EfeJ4HOww
 
 Dialog Basics in C# (Später von C# auf Visual Script übersetzt)
