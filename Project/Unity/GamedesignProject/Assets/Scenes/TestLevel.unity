@@ -410,7 +410,6 @@ GameObject:
   - component: {fileID: 174829311}
   - component: {fileID: 174829310}
   - component: {fileID: 174829309}
-  - component: {fileID: 174829308}
   m_Layer: 6
   m_Name: Fox
   m_TagString: NPC
@@ -433,33 +432,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1467418771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &174829308
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174829306}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &174829309
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -700,7 +672,6 @@ GameObject:
   - component: {fileID: 241603420}
   - component: {fileID: 241603419}
   - component: {fileID: 241603424}
-  - component: {fileID: 241603423}
   m_Layer: 6
   m_Name: Sign
   m_TagString: Prop
@@ -806,33 +777,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 579440855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &241603423
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241603418}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &241603424
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2344,7 +2288,6 @@ GameObject:
   - component: {fileID: 722258754}
   - component: {fileID: 722258753}
   - component: {fileID: 722258752}
-  - component: {fileID: 722258751}
   m_Layer: 6
   m_Name: Bird
   m_TagString: NPC
@@ -2367,33 +2310,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1467418771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &722258751
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 722258749}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &722258752
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2945,7 +2861,6 @@ GameObject:
   - component: {fileID: 1226804323}
   - component: {fileID: 1226804322}
   - component: {fileID: 1226804321}
-  - component: {fileID: 1226804320}
   m_Layer: 6
   m_Name: Sign (1)
   m_TagString: Prop
@@ -2953,33 +2868,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &1226804320
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226804319}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &1226804321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3136,7 +3024,6 @@ GameObject:
   - component: {fileID: 1239075257}
   - component: {fileID: 1239075256}
   - component: {fileID: 1239075255}
-  - component: {fileID: 1239075254}
   m_Layer: 6
   m_Name: Cat
   m_TagString: NPC
@@ -3159,33 +3046,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1467418771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1239075254
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239075252}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &1239075255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4074,7 +3934,6 @@ GameObject:
   - component: {fileID: 1889097859}
   - component: {fileID: 1889097858}
   - component: {fileID: 1889097857}
-  - component: {fileID: 1889097856}
   m_Layer: 6
   m_Name: Soldier
   m_TagString: NPC
@@ -4097,33 +3956,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1467418771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1889097856
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1889097854}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &1889097857
 BoxCollider2D:
   m_ObjectHideFlags: 0
