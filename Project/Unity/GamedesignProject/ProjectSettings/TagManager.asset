@@ -14,6 +14,7 @@ TagManager:
   - Enemy
   - Location
   - Position
+  - PartyMember
   layers:
   - Default
   - TransparentFX

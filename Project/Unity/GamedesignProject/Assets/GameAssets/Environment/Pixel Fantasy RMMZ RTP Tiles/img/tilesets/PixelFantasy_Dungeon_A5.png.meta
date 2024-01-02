@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +108,2485 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 719
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d532d3a7f1432e74abe332e1ef392adb
+      internalID: 1910892218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 719
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d574eec10080542bcff4e22ae159e2
+      internalID: -550684207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 719
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bee4067978c34446bc50a693f257593
+      internalID: 1775364457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 719
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63765d67751c5934094a00bc6649f850
+      internalID: 1662701031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 719
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2106c8909a0ecf48b38e41038e66e3a
+      internalID: -709251552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 719
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc89c72933eb40749abfba918e629358
+      internalID: -1936539158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 719
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5efa3efa3183a49af943b981ae3142
+      internalID: 55965697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 671
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6501426e8dc7cb9409941023ac85b810
+      internalID: 1710817804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 671
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5c14d59ce3c8147b83cbaaa8b2947b
+      internalID: -1159115190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 671
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7092b3a87bdb9409a99a53d3b51b3f
+      internalID: -1936539532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 671
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705620d3284074e46b0292bc11b6cfa4
+      internalID: -1717332602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 671
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be7f9bc44a89bf47a3f24bff53a3d21
+      internalID: -1968844144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 671
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b19a6b88fac78408d6eb56783b32d4
+      internalID: 1940317106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 671
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bdc75503d94b04fbaf89c575166484
+      internalID: -504813063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 623
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae01f88731eeeab44add312d8138a7a0
+      internalID: -1374602787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 623
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9debb196a1daa9b45adb193e8abc8a1e
+      internalID: 1188761622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 623
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f04c91af0ff174b91688141e5cc97b
+      internalID: -475418853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 623
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5cc5e4c66a57949b37a4c62030d6ce
+      internalID: 2126006058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 623
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e16cfa7a6f424f49b7bb4167e2cd704
+      internalID: -181337420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 623
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696eec13fdde19d48b1da6b759d9c574
+      internalID: -1564843292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 623
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0006058c92df4234b9870b0b92fd7e35
+      internalID: -105149793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 623
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e37cf99cdd56945b0492ae21caf3b5
+      internalID: 1091013461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a874818f3029254e9fde2c68f3fa34f
+      internalID: -1010713674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 575
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b80ca869a953d3429ac6e5a15c9e281
+      internalID: 1361600885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 575
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecb3e584a295ca4f9a696a3d1239bd7
+      internalID: -1257009473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 575
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db4c01bd6be4b549b6ef196a4e8ff46
+      internalID: -685052933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 575
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fc63d289b7f064c951b414b6739b92
+      internalID: 1137909135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 575
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77861294e8e3b844eacf10f3b68dd761
+      internalID: 199758152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 575
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82095efe0e92d3441b194b203825e09c
+      internalID: 2080423974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 575
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b2d85dcf49a374396e7c4c93b324ba
+      internalID: 128139041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982651ebb4d8a1f4b9ea13555fb34a92
+      internalID: 1573143020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 527
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37262863412f5c148b535431b607dbfc
+      internalID: 94419768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 527
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a61ce88fe40af409e4c6c90b509bf7
+      internalID: -688261413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 527
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2894e1bd6bb608428a4d7b17b549b61
+      internalID: 758362515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 527
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6abd2adea69497449b4f6fad2858738
+      internalID: 491424692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 527
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2ff185dab0272418721b66da360a2c
+      internalID: 944870374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 527
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc733562828c164d9cbd84d9546b859
+      internalID: -1066467727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_37
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 527
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09393f4653b32ab46b5acab17576af27
+      internalID: -974011140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856ccf0b69a1de841ae97ff9d5b094b4
+      internalID: 343710102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 479
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e66fa03e6e40746b5f75a878f603ac
+      internalID: -1571563557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 479
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184ac7e715855af4cb147996e4c7a0d8
+      internalID: 957907870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 479
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b62710bdf1689c4186ce9db2e35af42
+      internalID: -765633061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 479
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e399f4e1271337641a14e5ac265280b8
+      internalID: -1565631677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 479
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955b7798f922518438ef336662926fd9
+      internalID: 1163186107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 479
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a222bc722e8d7c4596f8ca947d7e0bb
+      internalID: 856324138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 479
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34505e1ce38fa2446bc94c922272ed04
+      internalID: -926368715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a740e98213ac83d4e8e6f3a7b720e891
+      internalID: 77712110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 431
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab51c69da8e34d42a5bc12f76890eb9
+      internalID: 760917268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 431
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4239f092f7569a445abde01ec0a044a4
+      internalID: -622266610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 431
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb78bd1384cf9d48ba85a265d7f07c5
+      internalID: -1074794713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 431
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6bd80b3c3f81444b303d5deffacf33
+      internalID: -1175342299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 431
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab96f9a1cf2628841a14505dc100dda2
+      internalID: -1791854537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 431
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d83c14a621c12340843edca43adf899
+      internalID: 737014842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_53
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 431
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b114d9d0a00ef1842966e2267d13f785
+      internalID: 1764939184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db14432bc7b2e9244bf9946d0acc1bec
+      internalID: 1340475953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_55
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 383
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aadf37493448c54ca5f53c611e9ed02
+      internalID: -96917223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 383
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9e2edb9a39da548ae9cf99a3a1f5c2
+      internalID: -1256190744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 383
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cd338c4e423a74582cb3ce48c88323
+      internalID: 483303904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 383
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f1884b9e7bfbd45b785a4462b5b9b1
+      internalID: 2139094846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 383
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1be13cf74fdf04c9a84fa3655ef626
+      internalID: 667687762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 383
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac9bce5c9b5e144ea59103b4d61efb7
+      internalID: 1816627531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_61
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 383
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5f2e252e30fc94e869f60cfb465d60
+      internalID: -741306834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa09e41f2347f0409c9a227b6071d41
+      internalID: -1926430348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 335
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e735cd562e16ad4990f02d8751edff7
+      internalID: 1431733862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 335
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ca225c05ca46548b97fc63cb147d77
+      internalID: -1514678413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_65
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 335
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b901702c0d5f848b074d9c0396bac2
+      internalID: 1675830438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 335
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90aa0c168edb6a945ad9912bb8cbd2d4
+      internalID: 990224679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 335
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cbee205ca4b4f45a44fcf6c8940fbc
+      internalID: -970704915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 335
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c66f6b3d5937aa489b2cfd3697cee24
+      internalID: -730417035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_69
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 335
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f92d28d9539d154597737ea9136d894
+      internalID: 1070131169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c4516f94b8a3a40ac3a981eaa136e9
+      internalID: -1807913823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 287
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e1f48641e2ba94b8d0f64c491e105b
+      internalID: 549835429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 287
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebba6a6a05c97cd4abc94e430380903d
+      internalID: -2097279548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 287
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104b06f8384ad814093bcde49e63e40a
+      internalID: 931209479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 287
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce8e52cf5e6f264f8d13afdad8e0dea
+      internalID: -1097815626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 287
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d617843e40b17fa469d91827aee093fd
+      internalID: 2117293785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 287
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fd5e70ab8e34a4b859306c807d15f1
+      internalID: -1093149434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 287
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe2a00d0d955eb45884112d54d6831d
+      internalID: 228980466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904d5f11739d01547964bb31759b2f0f
+      internalID: -2047240130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_79
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 239
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd73f5e2d5210842a68b329755bd5f1
+      internalID: 1350130607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 239
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3439c2e98443b044d9776ab158c5b348
+      internalID: 1953467235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 239
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ad086be32970a4c92e59d5635afa68
+      internalID: -394447386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 239
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a519f89253737349b3b1c3c462fc999
+      internalID: -640908583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 239
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bfc9a3bcaf13c4c9c7d82af1a2872c
+      internalID: 1518344787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 239
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d4d7fc8d772334fbcfe417a7bb198c
+      internalID: 100268183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 239
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0dd4cb7a1b1504fbc7913e8d873a48
+      internalID: -896119155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181eb8f299f5c19459887fb04dc039d7
+      internalID: -1234857591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371983e11c1689043b812628fd7a3dda
+      internalID: -958180330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a92879f40c15f43b982268c792fc63
+      internalID: -379014661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d5c0dab2f02f74c85a792ecc2b8df8
+      internalID: 385315619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74b5c5e963d514428436dff93900390
+      internalID: -437155799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_91
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffee57b9cd2afc74ba2f5942f238dc69
+      internalID: -1646057209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63b81846dd2ac546a08d1256fc6f902
+      internalID: 1478823709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_93
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cd2609f5266dc4e8d1cedc7d48b52e
+      internalID: -1099071188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d915493a8c783a43b60419bcd10dd8b
+      internalID: -52251733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_95
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6430e47f2530f84187f1df7b958a439
+      internalID: -1263717083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6985d2c31f627d9488978cdec0499362
+      internalID: -122723293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_97
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e73ea359b4d314ea8dbb42bba203c5
+      internalID: -136794444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2af56eaa905c8408861870635fb56f
+      internalID: 976951368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1def53ea00d44a4ca70d9905a926910
+      internalID: 204090965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_100
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948f9866bc7fc7e469dca75489717fe2
+      internalID: 1878126632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcd4caa9e24d9b4d94d01b98d55abe6
+      internalID: 934849887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcfb3b05add0a04fb6484e7aa773c5b
+      internalID: 1710591100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_103
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d1a038d39ce0f4a8e7a46179f4b0dc
+      internalID: 628439652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902aaefd27f7c314fa3b1932faa453dc
+      internalID: 1817151179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_105
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3b9fb6bbcd1754e94ab1e2bcb81d4a
+      internalID: -446138897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2184fe370721314280c18e4d4f43bd9
+      internalID: 876469843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_107
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd674b450f29654e9f9749a47a9dcae
+      internalID: 1440996651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_108
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087c927623c4aef408a35daee74aab30
+      internalID: -2134592132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_109
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f97b330385dbe246958ab5a4f66cf28
+      internalID: -1056244799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87ede807d74a5e4ea78f7ce6a5c35e2
+      internalID: 409812228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_111
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 47
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825e924cf5b132848949de3a52e7cd3b
+      internalID: -1190119822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 47
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36683a0ebc6e4342be45cc9d1775871
+      internalID: -1421764952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_113
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 47
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadb3352e1be6974ba555ec9ec6882fc
+      internalID: 321522665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 47
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e87b80465767ad45ad4dd051cc7b896
+      internalID: -1049621797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_115
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 47
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ae540a4cf116d43a462e1bdd7120c8
+      internalID: 1079552166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_116
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 47
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7c07663e219e849a65097da1b2aa6a
+      internalID: 1276049964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasy_Dungeon_A5_117
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 47
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab357c19fef681c4588dbea646b62101
+      internalID: 181933736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +2597,125 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PixelFantasy_Dungeon_A5_0: 1910892218
+      PixelFantasy_Dungeon_A5_1: -550684207
+      PixelFantasy_Dungeon_A5_10: -1717332602
+      PixelFantasy_Dungeon_A5_100: 1878126632
+      PixelFantasy_Dungeon_A5_101: 934849887
+      PixelFantasy_Dungeon_A5_102: 1710591100
+      PixelFantasy_Dungeon_A5_103: 628439652
+      PixelFantasy_Dungeon_A5_104: 1817151179
+      PixelFantasy_Dungeon_A5_105: -446138897
+      PixelFantasy_Dungeon_A5_106: 876469843
+      PixelFantasy_Dungeon_A5_107: 1440996651
+      PixelFantasy_Dungeon_A5_108: -2134592132
+      PixelFantasy_Dungeon_A5_109: -1056244799
+      PixelFantasy_Dungeon_A5_11: -1968844144
+      PixelFantasy_Dungeon_A5_110: 409812228
+      PixelFantasy_Dungeon_A5_111: -1190119822
+      PixelFantasy_Dungeon_A5_112: -1421764952
+      PixelFantasy_Dungeon_A5_113: 321522665
+      PixelFantasy_Dungeon_A5_114: -1049621797
+      PixelFantasy_Dungeon_A5_115: 1079552166
+      PixelFantasy_Dungeon_A5_116: 1276049964
+      PixelFantasy_Dungeon_A5_117: 181933736
+      PixelFantasy_Dungeon_A5_12: 1940317106
+      PixelFantasy_Dungeon_A5_13: -504813063
+      PixelFantasy_Dungeon_A5_14: -1374602787
+      PixelFantasy_Dungeon_A5_15: 1188761622
+      PixelFantasy_Dungeon_A5_16: -475418853
+      PixelFantasy_Dungeon_A5_17: 2126006058
+      PixelFantasy_Dungeon_A5_18: -181337420
+      PixelFantasy_Dungeon_A5_19: -1564843292
+      PixelFantasy_Dungeon_A5_2: 1775364457
+      PixelFantasy_Dungeon_A5_20: -105149793
+      PixelFantasy_Dungeon_A5_21: 1091013461
+      PixelFantasy_Dungeon_A5_22: -1010713674
+      PixelFantasy_Dungeon_A5_23: 1361600885
+      PixelFantasy_Dungeon_A5_24: -1257009473
+      PixelFantasy_Dungeon_A5_25: -685052933
+      PixelFantasy_Dungeon_A5_26: 1137909135
+      PixelFantasy_Dungeon_A5_27: 199758152
+      PixelFantasy_Dungeon_A5_28: 2080423974
+      PixelFantasy_Dungeon_A5_29: 128139041
+      PixelFantasy_Dungeon_A5_3: 1662701031
+      PixelFantasy_Dungeon_A5_30: 1573143020
+      PixelFantasy_Dungeon_A5_31: 94419768
+      PixelFantasy_Dungeon_A5_32: -688261413
+      PixelFantasy_Dungeon_A5_33: 758362515
+      PixelFantasy_Dungeon_A5_34: 491424692
+      PixelFantasy_Dungeon_A5_35: 944870374
+      PixelFantasy_Dungeon_A5_36: -1066467727
+      PixelFantasy_Dungeon_A5_37: -974011140
+      PixelFantasy_Dungeon_A5_38: 343710102
+      PixelFantasy_Dungeon_A5_39: -1571563557
+      PixelFantasy_Dungeon_A5_4: -709251552
+      PixelFantasy_Dungeon_A5_40: 957907870
+      PixelFantasy_Dungeon_A5_41: -765633061
+      PixelFantasy_Dungeon_A5_42: -1565631677
+      PixelFantasy_Dungeon_A5_43: 1163186107
+      PixelFantasy_Dungeon_A5_44: 856324138
+      PixelFantasy_Dungeon_A5_45: -926368715
+      PixelFantasy_Dungeon_A5_46: 77712110
+      PixelFantasy_Dungeon_A5_47: 760917268
+      PixelFantasy_Dungeon_A5_48: -622266610
+      PixelFantasy_Dungeon_A5_49: -1074794713
+      PixelFantasy_Dungeon_A5_5: -1936539158
+      PixelFantasy_Dungeon_A5_50: -1175342299
+      PixelFantasy_Dungeon_A5_51: -1791854537
+      PixelFantasy_Dungeon_A5_52: 737014842
+      PixelFantasy_Dungeon_A5_53: 1764939184
+      PixelFantasy_Dungeon_A5_54: 1340475953
+      PixelFantasy_Dungeon_A5_55: -96917223
+      PixelFantasy_Dungeon_A5_56: -1256190744
+      PixelFantasy_Dungeon_A5_57: 483303904
+      PixelFantasy_Dungeon_A5_58: 2139094846
+      PixelFantasy_Dungeon_A5_59: 667687762
+      PixelFantasy_Dungeon_A5_6: 55965697
+      PixelFantasy_Dungeon_A5_60: 1816627531
+      PixelFantasy_Dungeon_A5_61: -741306834
+      PixelFantasy_Dungeon_A5_62: -1926430348
+      PixelFantasy_Dungeon_A5_63: 1431733862
+      PixelFantasy_Dungeon_A5_64: -1514678413
+      PixelFantasy_Dungeon_A5_65: 1675830438
+      PixelFantasy_Dungeon_A5_66: 990224679
+      PixelFantasy_Dungeon_A5_67: -970704915
+      PixelFantasy_Dungeon_A5_68: -730417035
+      PixelFantasy_Dungeon_A5_69: 1070131169
+      PixelFantasy_Dungeon_A5_7: 1710817804
+      PixelFantasy_Dungeon_A5_70: -1807913823
+      PixelFantasy_Dungeon_A5_71: 549835429
+      PixelFantasy_Dungeon_A5_72: -2097279548
+      PixelFantasy_Dungeon_A5_73: 931209479
+      PixelFantasy_Dungeon_A5_74: -1097815626
+      PixelFantasy_Dungeon_A5_75: 2117293785
+      PixelFantasy_Dungeon_A5_76: -1093149434
+      PixelFantasy_Dungeon_A5_77: 228980466
+      PixelFantasy_Dungeon_A5_78: -2047240130
+      PixelFantasy_Dungeon_A5_79: 1350130607
+      PixelFantasy_Dungeon_A5_8: -1159115190
+      PixelFantasy_Dungeon_A5_80: 1953467235
+      PixelFantasy_Dungeon_A5_81: -394447386
+      PixelFantasy_Dungeon_A5_82: -640908583
+      PixelFantasy_Dungeon_A5_83: 1518344787
+      PixelFantasy_Dungeon_A5_84: 100268183
+      PixelFantasy_Dungeon_A5_85: -896119155
+      PixelFantasy_Dungeon_A5_86: -1234857591
+      PixelFantasy_Dungeon_A5_87: -958180330
+      PixelFantasy_Dungeon_A5_88: -379014661
+      PixelFantasy_Dungeon_A5_89: 385315619
+      PixelFantasy_Dungeon_A5_9: -1936539532
+      PixelFantasy_Dungeon_A5_90: -437155799
+      PixelFantasy_Dungeon_A5_91: -1646057209
+      PixelFantasy_Dungeon_A5_92: 1478823709
+      PixelFantasy_Dungeon_A5_93: -1099071188
+      PixelFantasy_Dungeon_A5_94: -52251733
+      PixelFantasy_Dungeon_A5_95: -1263717083
+      PixelFantasy_Dungeon_A5_96: -122723293
+      PixelFantasy_Dungeon_A5_97: -136794444
+      PixelFantasy_Dungeon_A5_98: 976951368
+      PixelFantasy_Dungeon_A5_99: 204090965
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
