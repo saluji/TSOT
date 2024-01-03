@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 11814789458072569}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2939998, y: -1.5365, z: 0}
+  m_LocalPosition: {x: -0.2939998, y: -1.497, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58,7 +58,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5982972114501512215}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.0979996, y: 1.643, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
@@ -150,7 +150,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.29392144, y: -0.9}
+  m_Offset: {x: -0.29392144, y: -0.886373}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -161,7 +161,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.48912674, y: 0.24346125}
+  m_Size: {x: 0.48912674, y: 0.2098602}
   m_EdgeRadius: 0
 --- !u!60 &4015203859105666614
 PolygonCollider2D:
@@ -207,20 +207,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.1444974, y: 0.6299195}
-      - {x: -0.003962517, y: 0.69825065}
-      - {x: -1.03125, y: -0.171875}
-      - {x: -1.03125, y: -0.78125}
-      - {x: -1, y: -0.8125}
-      - {x: -0.8164626, y: -0.6758375}
-      - {x: -0.828125, y: -1.328125}
-      - {x: -0.5601765, y: -1.328125}
-      - {x: -0.5465102, y: -0.7678089}
-      - {x: -0.045113325, y: -0.77231205}
-      - {x: -0.04938543, y: -1.3212919}
-      - {x: 0.80771565, y: -1.3250291}
-      - {x: 0.8159225, y: -0.6886857}
-      - {x: 1.0195265, y: -0.7800114}
-      - {x: 1.0263755, y: -0.17374367}
-      - {x: 0.5732055, y: 0.24521577}
+    - - {x: -0.03993869, y: -0.768904}
+      - {x: -0.050809145, y: -1.3211831}
+      - {x: 0.826882, y: -1.3108168}
+      - {x: 0.8138521, y: -0.39393327}
+      - {x: -0.80068284, y: -0.37812278}
+      - {x: -0.8143175, y: -1.3377247}
+      - {x: -0.54264206, y: -1.3328316}
+      - {x: -0.5390135, y: -0.7632665}
   m_UseDelaunayMesh: 0
