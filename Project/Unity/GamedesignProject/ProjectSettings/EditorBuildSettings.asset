@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/HumanVillage_NIght.unity
     guid: b5a4ebe903f660a4888ac03584d7ce5b
   - enabled: 0
-    path: Assets/Scenes/TestLevel.unity
+    path: Assets/Scenes/TestLevel01.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
