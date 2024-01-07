@@ -13,10 +13,10 @@ TagManager:
   - MineEntrance
   - Enemy
   - Location
-  - Position
   - PartyMember
   - Destroy
   - Capture
+  - HousePosition
   layers:
   - Default
   - TransparentFX
