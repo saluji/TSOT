@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/AnimalVillage.unity
     guid: cbe151e3421626243ad9545f10c748d6
   - enabled: 1
+    path: Assets/Scenes/TestLevel02.unity
+    guid: 4f2bb0c383e30db48baff3459fe17746
+  - enabled: 1
     path: Assets/Scenes/HumanVillage_Day.unity
     guid: c02eb909faf9aee43adc8c310e281b0f
   - enabled: 1
