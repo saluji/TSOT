@@ -18,6 +18,7 @@ TagManager:
   - Capture
   - HousePosition
   - Position
+  - Idle
   - Interact
   layers:
   - Default
