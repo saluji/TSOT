@@ -18,6 +18,7 @@ TagManager:
   - Capture
   - HousePosition
   - Position
+  - Interact
   layers:
   - Default
   - TransparentFX
