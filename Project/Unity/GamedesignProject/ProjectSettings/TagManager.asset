@@ -18,7 +18,10 @@ TagManager:
   - Capture
   - HousePosition
   - Position
+  - Idle
   - Interact
+  - EnemyIdle
+  - EnemyPatrol
   layers:
   - Default
   - TransparentFX
