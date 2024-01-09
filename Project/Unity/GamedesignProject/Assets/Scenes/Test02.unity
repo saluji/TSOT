@@ -59470,8 +59470,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0034500062, y: 0, z: 0}
-    m_Extent: {x: 1.00325, y: 0.9985, z: 0}
+    m_Center: {x: 0.0058499873, y: -0.005400002, z: 0}
+    m_Extent: {x: 0.99745, y: 1.0012, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -60957,8 +60957,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00095000863, y: -0.004949987, z: 0}
-    m_Extent: {x: 0.99835, y: 1.00365, z: 0}
+    m_Center: {x: 0.0009999871, y: 0.0022500157, z: 0}
+    m_Extent: {x: 1.0041001, y: 1.00435, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -106239,8 +106239,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00090000033, y: -0.00060001016, z: 0}
-    m_Extent: {x: 0.6091, y: 0.6091, z: 0}
+    m_Center: {x: -0.00064998865, y: 0.004150003, z: 0}
+    m_Extent: {x: 0.59985, y: 0.60504997, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -106559,7 +106559,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1306972109
 RectTransform:
   m_ObjectHideFlags: 0
@@ -111648,8 +111648,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0027999878, y: -0.0029499829, z: 0}
-    m_Extent: {x: 1.0071, y: 1.00265, z: 0}
+    m_Center: {x: -0.0011000037, y: 0.00075000525, z: 0}
+    m_Extent: {x: 1.0069001, y: 1.00505, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -112539,7 +112539,7 @@ GameObject:
   - component: {fileID: 6669797863300788938}
   - component: {fileID: 8068994983681922385}
   m_Layer: 7
-  m_Name: Raccoon
+  m_Name: Tanuki
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
