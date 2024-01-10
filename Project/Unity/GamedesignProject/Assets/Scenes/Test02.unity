@@ -58246,7 +58246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &216439665
 Transform:
   m_ObjectHideFlags: 0
@@ -59470,8 +59470,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0058499873, y: -0.005400002, z: 0}
-    m_Extent: {x: 0.99745, y: 1.0012, z: 0}
+    m_Center: {x: -0.0034499764, y: 0.00084996223, z: 0}
+    m_Extent: {x: 1.00495, y: 1.00895, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -60450,6 +60450,208 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &638662868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 638662875}
+  - component: {fileID: 638662874}
+  - component: {fileID: 638662873}
+  - component: {fileID: 638662872}
+  - component: {fileID: 638662871}
+  - component: {fileID: 638662870}
+  - component: {fileID: 638662869}
+  m_Layer: 6
+  m_Name: TestText
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &638662869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638662868}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d06059a3046da08488aaca3eac8bed1a, type: 2}
+--- !u!70 &638662870
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638662868}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.092951894}
+  m_Size: {x: 0.99641067, y: 1.3681009}
+  m_Direction: 0
+--- !u!95 &638662871
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638662868}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fd0b0f0797b786d46b3a4207939f7c71, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &638662872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638662868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":234.5807,"y":-531.0211},"zoom":1.0,"elements":[{"type":"System.String","value":{"$content":"Hey
+      Tanuki. You see that rock to the left? I tried to squeeze through to search
+      for the crystals, but with no luck...","$type":"System.String"},"defaultValues":{},"position":{"x":235.0,"y":-396.0},"guid":"4a6339d5-620d-4bfe-998f-89a3b1618ab6","$version":"A","$type":"Unity.VisualScripting.Literal"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"getText","$type":"System.String"}},"position":{"x":-587.0,"y":-706.0},"guid":"e9c3f5a5-c6dd-4db2-8505-4614ae7df0cb","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"12"},{"type":"System.String","value":{"$content":"Oh,
+      hey Bob. You both might be the key to solving that rock problem.","$type":"System.String"},"defaultValues":{},"position":{"x":326.0,"y":-793.0},"guid":"5f0671b8-70f9-4cc4-b655-b0c8c86bc36a","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"14"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"fox","$type":"System.String"}},"position":{"x":-393.0,"y":-602.0},"guid":"09634079-2b07-4837-86d7-bcc5eb348570","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"partyMember","$type":"System.String"},"object":null},"position":{"x":-208.0,"y":-623.0},"guid":"d7e8b83b-c2af-4e5e-b9d1-01d2752fe688","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"defaultValues":{},"position":{"x":-10.0,"y":-701.0},"guid":"d23f019d-ccfb-421f-91c9-fd03395965c7","$version":"A","$type":"Unity.VisualScripting.If","$id":"20"},{"argumentCount":1,"defaultValues":{"name":{"$content":"setText","$type":"System.String"},"target":null},"position":{"x":604.0,"y":-873.0},"guid":"7d54d81e-3c1f-4c83-8bfd-f297c66ec8b4","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"22"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"dialogueManager","$type":"System.String"}},"position":{"x":134.0,"y":-698.0},"guid":"50a64267-e1d8-403a-852f-b103597c685c","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"24"},{"argumentCount":1,"defaultValues":{"name":{"$content":"setText","$type":"System.String"},"target":null},"position":{"x":606.0,"y":-658.0},"guid":"b509fae5-1dc4-4e0e-a8e9-c51d1e0078e2","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"26"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"dialogue","$type":"System.String"},"object":null},"position":{"x":345.0,"y":-581.0},"guid":"19dc3f87-f6be-46d3-9392-66f2de985462","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"28"},{"sourceUnit":{"$ref":"20"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"22"},"destinationKey":"enter","guid":"bd6c4af8-4804-4d45-b8cb-194e16951a3f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"20"},"destinationKey":"enter","guid":"d05200d9-34f9-44a6-809e-a5a1a47ce483","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"26"},"destinationKey":"enter","guid":"ef2ffadd-02ff-407e-88a4-d5fa506255b2","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"value","destinationUnit":{"$ref":"26"},"destinationKey":"target","guid":"a54a5421-9bd1-4dff-a4a7-7522c1ae4ae3","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"object","guid":"f2675ad5-0dd2-4e56-92e5-79475812b7ac","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"22"},"destinationKey":"argument_0","guid":"1e7cad91-1625-41e5-911d-b46ff18b8c72","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"condition","guid":"5e7e27d0-4ec0-4993-888d-42325524f6de","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"value","destinationUnit":{"$ref":"22"},"destinationKey":"target","guid":"21539da9-481f-47e3-bb49-3f50a1309de6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"28"},"sourceKey":"value","destinationUnit":{"$ref":"26"},"destinationKey":"argument_0","guid":"74802810-2ac6-44e2-b99c-8dbaa7ca871c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &638662873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638662868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"xIdle","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"yIdle","value":{"$content":-1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"dialogue","value":{"$content":"Test
+      Text","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"text","value":{"$content":["list
+      of string text"],"$type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!212 &638662874
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638662868}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 1497865756, guid: 52cf280f2ac058d4ca77814077398ded, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &638662875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638662868}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 24.1, y: -7.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &667507690
 GameObject:
   m_ObjectHideFlags: 0
@@ -60957,8 +61159,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0009999871, y: 0.0022500157, z: 0}
-    m_Extent: {x: 1.0041001, y: 1.00435, z: 0}
+    m_Center: {x: 0.00024998188, y: -0.0012999773, z: 0}
+    m_Extent: {x: 1.00415, y: 1.0056, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -106239,8 +106441,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00064998865, y: 0.004150003, z: 0}
-    m_Extent: {x: 0.59985, y: 0.60504997, z: 0}
+    m_Center: {x: 0.0044499934, y: 0.0027999878, z: 0}
+    m_Extent: {x: 0.59994996, y: 0.6041, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -108755,10 +108957,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"letterSpeed","value":{"$content":0.025,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"textLength","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"index","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"letterStep","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"inDialogue","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"dialogueText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
+      Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2078582835}
 --- !u!82 &1752163375
 AudioSource:
   m_ObjectHideFlags: 0
@@ -111648,8 +111853,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0011000037, y: 0.00075000525, z: 0}
-    m_Extent: {x: 1.0069001, y: 1.00505, z: 0}
+    m_Center: {x: -0.0032500029, y: -0.00055003166, z: 0}
+    m_Extent: {x: 1.00115, y: 1.00325, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -112803,3 +113008,4 @@ SceneRoots:
   - {fileID: 1796484146}
   - {fileID: 752126662}
   - {fileID: 1820515911}
+  - {fileID: 638662875}
