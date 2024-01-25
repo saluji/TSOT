@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: 46566c2a19d596b4a82e44f17abc9374
   - enabled: 1
-    path: Assets/Scenes/AnimalVillage.unity
+    path: Assets/Scenes/RaccoonVillage.unity
     guid: 0028001a53abaaf44a9f49a762648463
   - enabled: 1
     path: Assets/Scenes/Test01.unity
