@@ -23,6 +23,7 @@ TagManager:
   - EnemyPatrol
   - Ore
   - Chest
+  - End
   layers:
   - Default
   - TransparentFX
