@@ -22,7 +22,7 @@ TagManager:
   - EnemyIdle
   - EnemyPatrol
   - Ore
-  - Light
+  - Chest
   layers:
   - Default
   - TransparentFX
@@ -38,8 +38,8 @@ TagManager:
   - House
   - PartyMember
   - Ore
-  - 
-  - 
+  - Chest
+  - Gate
   - 
   - 
   - 
