@@ -15,7 +15,7 @@ Benutzte Tutorials
 
 Raycast Check von der Vorlesung 'Prototyp 03'
 
-Blend Tree Animation mit Visual Script
+Animation mittels Blend Tree mit Visual Script
 https://www.youtube.com/watch?v=Up9zrK9Q1Ck
 https://www.youtube.com/watch?v=p8EfeJ4HOww
 
