@@ -15,7 +15,6 @@ TagManager:
   - Location
   - PartyMember
   - Destroy
-  - Capture
   - HousePosition
   - Position
   - Idle
@@ -24,6 +23,7 @@ TagManager:
   - Ore
   - Chest
   - End
+  - EnemyIdleSwitch
   layers:
   - Default
   - TransparentFX
