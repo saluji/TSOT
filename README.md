@@ -15,7 +15,7 @@ After the player has played through that prototype, they will gain additional kn
 * Confirm / Interact: Space or Z
 * Run: Left shift
 
-## Author(s)
+## Authors
 * Erwin Oudomvylay
 * Thanh Pham
 
