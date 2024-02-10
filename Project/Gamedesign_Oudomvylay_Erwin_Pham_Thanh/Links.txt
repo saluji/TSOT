@@ -2,6 +2,7 @@ Link zum Git-Repository
 https://github.com/saluji/gamedesign
 
 Link zur itch.io Seite
+https://saluji.itch.io/tsot
 
 Links zu den verwendeten Assets
 https://pixeljad.itch.io/villagetopdown
@@ -20,6 +21,7 @@ https://alan-dalcastagne.itch.io/dialog-text-sound-effects
 https://seliel-the-shaper.itch.io/gentle-forest
 https://ozanoyunbozan.itch.io/pixel-art-house-and-interior
 https://pixelfight.itch.io/birdcat
+
 
 Benutzte Tutorials
 
