@@ -2,10 +2,12 @@
 In this repository all changes throughout the creation of this prototype are being held here.
 
 ## Description
-For this project our task was to make a prototype which contains an experience. After the player has played through that prototype, they will gain additional knowledge about a certain topic from another perspective.
+For this project our task was to make a prototype which contains an experience.
+After the player has played through that prototype, they will gain additional knowledge about a certain topic from another perspective.
 
 ### Features
 * Get to know history of this world through characters and objects
+* Have fun exploring all the stuff that is being offered
 * Not everything is what it seems
 
 ### Controls
@@ -16,6 +18,9 @@ For this project our task was to make a prototype which contains an experience. 
 ## Author(s)
 * Erwin Oudomvylay
 * Thanh Pham
+
+## Link
+<a href="https://saluji.itch.io/tsot">Download the prototype from out itch.io page!</a>
 
 ## Credits
 This prototype is part of a project of the subject Gamedesign at the Visualization and Interaction in Digital Media (VIS) program of HS Ansbach.
