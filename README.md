@@ -2,7 +2,7 @@
 In this repository all changes throughout the creation of this prototype are being held here.
 
 ## Description
-For this project our task was to make a prototype which contains an experience.
+For this project our task was to build a prototype which contains an experience.
 After the player has played through that prototype, they will gain additional knowledge about a certain topic from another perspective.
 
 ### Features
@@ -23,7 +23,7 @@ After the player has played through that prototype, they will gain additional kn
 <a href="https://saluji.itch.io/tsot">Download the prototype from out itch.io page!</a>
 
 ## Credits
-This prototype is part of a project of the subject Gamedesign at the Visualization and Interaction in Digital Media (VIS) program of HS Ansbach.
+This prototype was created at the Visualistaion and Interaction in Digital Media (VIS) program of HS Ansbach​.
 Supervised by Prof. Sebastian Stamm & Prof. Florian Machill (Gamedesign WS2023/24).
 
 ## Third Party Credits
