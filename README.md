@@ -23,7 +23,7 @@ After the player has played through that prototype, they will gain additional kn
 <a href="https://saluji.itch.io/tsot">Download the prototype from our itch.io page!</a>
 
 ## Credits
-This prototype was created at the Visualistaion and Interaction in Digital Media (VIS) program of HS Ansbach​.
+This prototype was created at the Visualisation and Interaction in Digital Media (VIS) program of HS Ansbach​.
 Supervised by Prof. Sebastian Stamm & Prof. Florian Machill (Gamedesign WS2023/24).
 
 ## Third Party Credits
