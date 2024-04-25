@@ -1,0 +1,51 @@
+Link zum Git-Repository
+https://github.com/saluji/gamedesign
+
+Link zur itch.io Seite
+https://saluji.itch.io/tsot
+
+Links zu den verwendeten Assets
+https://pixeljad.itch.io/villagetopdown
+https://cazwolf.itch.io/pixel-fantasy-tiles-mz
+https://nebula-audio.itch.io/character-footsteps-rock-grass-pack-1
+https://illugion.itch.io/pixel-keyboard-lite
+https://seliel-the-shaper.itch.io/treasure-chests
+https://mounirtohami.itch.io/pixel-art-gui-elements
+https://masharcade.itch.io/bitty
+https://ansimuz.itch.io/mountain-dusk-parallax-background
+https://leohpaz.itch.io/minifantasy-dungeon-sfx-pack
+https://ateliermagicae.itch.io/fantasy-ui-sound-effects
+https://sonatina.itch.io/fortunata
+https://seliel-the-shaper.itch.io/character-base
+https://alan-dalcastagne.itch.io/dialog-text-sound-effects
+https://seliel-the-shaper.itch.io/gentle-forest
+https://ozanoyunbozan.itch.io/pixel-art-house-and-interior
+https://pixelfight.itch.io/birdcat
+
+
+Benutzte Tutorials
+
+Raycast Check von der Vorlesung 'Prototyp 03'
+
+Animation mittels Blend Tree mit Visual Script
+https://www.youtube.com/watch?v=Up9zrK9Q1Ck
+https://www.youtube.com/watch?v=p8EfeJ4HOww
+
+Dialog Basics in C# (Später von C# auf Visual Script übersetzt)
+https://www.youtube.com/watch?v=1nFNOyCalzo
+
+Dialog Basic in Visual Script
+https://www.youtube.com/watch?v=eQ_R7Qzy1gI
+
+AI Behaviour mit State Machines
+https://www.youtube.com/watch?v=Kwpi9j_88xA
+
+Tilemaps
+https://www.youtube.com/watch?v=ryISV_nH8qw
+https://www.youtube.com/watch?v=G7e_fzG_0Bk
+
+Lighting
+https://www.youtube.com/watch?v=nkgGyO9VG54
+
+Schrift importieren
+https://www.youtube.com/watch?v=ZgY85oitee8
