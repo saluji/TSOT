@@ -16,7 +16,7 @@ After the player has played through that prototype, they will gain additional kn
 * Run: Left shift
 
 ## Authors
-* Saluji
+* Erwin Oudomvylay
 * Thanh Pham
 
 ## Link
